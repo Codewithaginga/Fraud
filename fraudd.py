@@ -39,10 +39,12 @@ class FraudDict:
                 print('Fraud dictated')
 
             else:
-                print(f'confirmed you have @ {asc} you have withdraw {amount:,} successful')
+                print(f'confirmed @ {asc} you withdraw {amount:,} successful'
+                      f'your balance is {balance:,}')
 
         else:
-            print(f'Confirmed {asc} you have withdraw {sum(statement):,} successful ')
+            print(f'Confirmed {asc} you have undergo  withdrawal of  {sum(statement):,} successful '
+                  f'in {limit} days')
 
         print(statement)
 
